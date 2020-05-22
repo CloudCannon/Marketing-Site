@@ -1,7 +1,7 @@
 ---
-name: Kennedy
+name: Nathan Kennedy
 image: /uploads/nathan.jpg
-position: Junior Developer
+position: Developer
 twitter:
 email_address: nathan@cloudcannon.com
 bio:
