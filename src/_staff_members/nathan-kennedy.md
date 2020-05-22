@@ -1,5 +1,5 @@
 ---
-name: Nathan Kennedy
+name: Kennedy
 image: /uploads/nathan.jpg
 position: Junior Developer
 twitter:
