@@ -1,7 +1,7 @@
 ---
 name: Haowei Yu
 image: /uploads/haowei.jpg
-position: Junior Marketer and Designer
+position: Marketer and Designer
 twitter:
 email_address: haowei@cloudcannon.com
 bio:
