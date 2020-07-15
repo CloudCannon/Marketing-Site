@@ -32,7 +32,7 @@ As we need to update our database we are going to take the following steps:
 With this release we are simplifying how users and organisations are connected. We are moving the concept of a "personal" organisation to a organisation entity in itself, which will allow for personal sites ownership transfers and the ability to brand your editing experience. We will also be providing a better onboarding experience for new signups. &nbsp;
 {: .present-before-paste}
 
-You can read [here](https://docs.cloudcannon.com/2020/07/22/simplified-users-organisations-connection/) a complete list of changes.
+Read all about this release on our [Change Log](https://docs.cloudcannon.com/2020/07/22/simplified-users-organisations-connection/).
 {: .present-before-paste}
 
 &nbsp;
