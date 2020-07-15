@@ -6,7 +6,7 @@ image:
 image_featured: false
 ---
 
-Scheduled for [Jul 22, 15:00 - 19:00 NZDT](https://everytimezone.com/s/ba680b09)
+Scheduled for [Jul 22, 15:00 - 19:00 NZDT](https://everytimezone.com/s/ba680b09){: target="_blank"}
 
 During the maintenance window the CloudCannon App will be set to a read-only state for up to 4 hours. This will mean the following:
 
