@@ -1,18 +1,20 @@
 ---
-title: Scheduled maintenance for major release.
+title: CloudCannon App Scheduled maintenance
 staff_member: george-phillips
 category: Operations
 image:
 image_featured: false
 ---
 
-On Wednesday 22 July 2020 at [3:00pm NZDT](https://everytimezone.com/s/ba680b09) CloudCannon will be set to a read-only state for 4 hours. This will mean the following:
+Scheduled for [Jul 22, 15:00 - 19:00 NZDT](https://everytimezone.com/s/ba680b09)
+
+During the maintenance window the CloudCannon App will be set to a read-only state for up to 4 hours. This will mean the following:
 
 * **Editing access will be disabled**
 * Sites will be served as normal
 * Builds and syncs will occur as normal
 
-This is due to a database upgrade necessary for a major release. Our aim is to ensure sites are operational and repository updates are still viable. We have chosen [3:00pm NZDT](https://everytimezone.com/s/ba680b09) as it is our lowest usage time. The rest of this article will be a detailed description of our plan for visibility. We apologise for inconvenience this will cause.
+This is due to a database upgrade necessary for a major release. Our aim is to ensure sites are operational and repository updates are still viable.&nbsp;
 {: .present-before-paste}
 
 ### Our Plan
@@ -23,7 +25,7 @@ As we need to update our database we are going to take the following steps:
 1. Disable sign ups and logins to the app.
 2. Perform the necessary database updates.
 3. Redeploy applications.
-4. Enable sign ups and logins to the app
+4. Enable sign ups and logins to the app.
 
 ### Changes
 
