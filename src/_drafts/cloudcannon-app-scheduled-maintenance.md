@@ -6,9 +6,9 @@ image:
 image_featured: false
 ---
 
-Scheduled for [Jul 22, 15:00 - 19:00 NZDT](https://everytimezone.com/s/ba680b09){: target="_blank"}
+Scheduled for [Jul 22, 15:00 - 20:00 NZDT](https://everytimezone.com/s/ba680b09){: target="_blank"}
 
-During the maintenance window the CloudCannon App will be set to a read-only state for up to 4 hours. This will mean the following:
+During the maintenance window the CloudCannon App will be set to a read-only state for up to 5 hours. This will mean the following:
 
 * **Editing access will be disabled**
 * Sites will be served as normal
@@ -29,10 +29,10 @@ As we need to update our database we are going to take the following steps:
 
 ### Changes
 
-With this release we are simplifying how users and organisations are connected. We are moving the concept of a "personal" organisation to a organisation entity in itself, which will allow for personal sites ownership transfers and the ability to brand your editing experience. We will also be providing a better onboarding experience for new signups. &nbsp;
+With this release we are simplifying how users and organisations are connected. We are moving the concept of a "personal" organisation to an organisation entity in itself, which will allow for personal sites ownership transfers and the ability to brand your editing experience. We will also be providing a better onboarding experience for new signups.&nbsp; This will be conceptually clearer for existing and future applications.
 {: .present-before-paste}
 
-Read all about this release on our [Change Log](https://docs.cloudcannon.com/2020/07/22/simplified-users-organisations-connection/).
+A full change log will be available after release.
 {: .present-before-paste}
 
 &nbsp;
