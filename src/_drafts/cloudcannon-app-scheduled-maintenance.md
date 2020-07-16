@@ -29,7 +29,7 @@ As we need to update our database we are going to take the following steps:
 
 ### Changes
 
-With this release we are simplifying how users and organisations are connected. We are moving the concept of a "personal" organisation to an organisation entity in itself, which will allow for personal sites ownership transfers and the ability to brand your editing experience. We will also be providing a better onboarding experience for new signups.&nbsp; This will be conceptually clearer for existing and future applications.
+With this release we are simplifying how users and organisations are connected. We will be removing the concept of "personal" organisations, so that websites cannot be tied to individual users. For example, a user named Jane will become the owner of a new organisation called "Jane's Organisation," which will contain all her personal sites. This will allow ownership transfers for personal sites, and the ability to brand your editing experience. We will also be providing a better onboarding experience for new signups.&nbsp; This will be conceptually clearer for existing and future applications.
 {: .present-before-paste}
 
 A full change log will be available after release.
