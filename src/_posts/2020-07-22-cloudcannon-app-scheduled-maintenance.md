@@ -6,7 +6,7 @@ image:
 image_featured: false
 ---
 
-This migration was completed within 2.5 hours. No hosting was effected during this time. No issues occured and service is back to normal. Thank you for your patience.
+This migration was completed within 2.5 hours. Hosting was unaffected during this time. No issues occurred and service is back to normal. Thank you for your patience.
 
 ---
 
