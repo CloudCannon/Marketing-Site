@@ -90,7 +90,7 @@ This will bundle all your scripts into one file. In your `<script>` tags, you ca
 Instead of specifying each input file on the command line, you can create an `entry.js` file. This file should just require/import all the scripts you want to bundle. Then, you can use this as your input and all of the other imported scripts will be bundled.
 
 ```sh
-$ ./node_modules/.bin/webpack path/to/entry.js js/output.js
+$ ./node_modules/.bin/webpack path/to/entry.js -o js/output.js
 ```
 
 This is very basic use of webpack - see the [webpack docs](https://webpack.js.org/guides/getting-started/#using-a-configuration) for more configuration options.
@@ -150,13 +150,15 @@ gulp.task('concat-and-minify-scripts', function() {
 
 CloudCannon supports custom commands, so that you can use tools like Gulp and webpack easily. Simply create a `_cloudcannon-prebuild.sh` file at the root of your project with any commands you want to run before each site build.
 
+Your prebuild commands run in a Node environment, so you can install any npm packages you need.
+
 For example:
 
 ```sh
 npm install webpack
 npm install webpack-cli
 
-./node_modules/.bin/webpack path/to/entry.js js/output.js
+./node_modules/.bin/webpack path/to/entry.js -o js/output.js
 ```
 
 ```sh
