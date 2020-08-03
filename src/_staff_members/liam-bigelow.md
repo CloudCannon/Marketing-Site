@@ -1,7 +1,7 @@
 ---
 name: Liam Bigelow
 image: /uploads/liam.jpg
-position: Services Engineer
+position: Head of Services
 twitter:
 email_address: liam@cloudcannon.com
 bio:
