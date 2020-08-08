@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/CloudCannon/jekyll-feed.git
+  remote: https://github.com/CloudCannon/jekyll-feed.git
   revision: 7e4a5ed7605aa106558ed12bd1ca67006b24f778
   branch: master
   specs:
@@ -7,7 +7,7 @@ GIT
       jekyll (>= 3.7, < 5.0)
 
 GIT
-  remote: git://github.com/CloudCannon/jekyll-theme-cloudcannon.git
+  remote: https://github.com/CloudCannon/jekyll-theme-cloudcannon.git
   revision: 79011f1e8f6f8f88c96543caa65bcc9d2bbf8942
   branch: master
   specs:
@@ -67,7 +67,8 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    kramdown (2.1.0)
+    kramdown (2.3.0)
+      rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     liquid (4.0.3)
@@ -81,6 +82,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
+    rexml (3.2.4)
     rouge (3.13.0)
     safe_yaml (1.0.5)
     sassc (2.2.1)
