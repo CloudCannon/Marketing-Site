@@ -8,10 +8,6 @@ disqus_shortname: cloudcannon
 theme: jekyll-theme-cloudcannon
 baseurl:
 
-twitter:
-  username: cloudcannon
-  card: summary
-
 active_sibling: Home
 main_url: ""
 google_analytics_key: "UA-37472773-1"
@@ -89,6 +85,7 @@ lang: en_NZ
 logo: /siteicon.png
 twitter:
   username: CloudCannon
+  card: summary
 facebook:
   publisher: https://www.facebook.com/CloudCannon
 social:
@@ -108,7 +105,7 @@ exclude:
 recaptcha:
   sitekey: 6Lfng1EUAAAAAIqcLgzGcjRjVHR46BbyqZNgU2Xd
 
-_comments: 
+_comments:
   tagline: "Social: used as part of the title tag of the home page like 'title | tagline'"
   description: "Social:  A longer description used for the description meta tag"
   image: "Social: URL to an image associated with the page (ideally 1200x630 and Less than 1MB)"
