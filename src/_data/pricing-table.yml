@@ -209,23 +209,6 @@ table_items:
     enterprise_plan:
       enabled: true
       alternate_detail:
-  - title: Outputs
-    tool_tip_html: >-
-      <p>Connecting a storage provider to <a target="_blank"
-      href="https://docs.cloudcannon.com/files/output-syncing/introduction/">output</a>
-      allows you to access the compiled output of a site.</p>
-    free_plan:
-      enabled: true
-      alternate_detail:
-    basic_plan:
-      enabled: true
-      alternate_detail:
-    pro_plan:
-      enabled: true
-      alternate_detail:
-    enterprise_plan:
-      enabled: true
-      alternate_detail:
   - title: Publishing Workflows
     tool_tip_html: >-
       <p><a target="_blank"
@@ -318,6 +301,23 @@ table_items:
       your site is configured with CloudCannon DNS.</p>
     free_plan:
       enabled: true
+      alternate_detail:
+    basic_plan:
+      enabled: true
+      alternate_detail:
+    pro_plan:
+      enabled: true
+      alternate_detail:
+    enterprise_plan:
+      enabled: true
+      alternate_detail:
+  - title: Outputs
+    tool_tip_html: >-
+      <p>Connecting a storage provider to <a target="_blank"
+      href="https://docs.cloudcannon.com/files/output-syncing/introduction/">output</a>
+      allows you to access the compiled output of a site.</p>
+    free_plan:
+      enabled: false
       alternate_detail:
     basic_plan:
       enabled: true

@@ -121,7 +121,7 @@ table_rows:
     pro_plan_option: 'True'
     enterprise_plan_option: 'True'
   - feature_title: Outputs
-    free_plan_option: 'True'
+    free_plan_option: 'False'
     basic_plan_option: 'True'
     pro_plan_option: 'True'
     enterprise_plan_option: 'True'
