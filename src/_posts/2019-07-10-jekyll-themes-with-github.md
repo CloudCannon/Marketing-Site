@@ -70,6 +70,15 @@ To use a private theme the repository URL specified in the site's `Gemfile` need
 gem 'mytheme', '>= 0.1.0', :git => 'https://TOKEN:x-oauth-basic@github.com/USERNAME/mytheme.git'
 ~~~
 
+If you include the `TOKEN` string in your `Gemfile` directly, you can start to receive a lot of warnings from the GitGuardian. In this case, you can keep your secret key in CloudCannon environment variables. In CloudCannon navigate to *Settings &gt; Configuration &gt; Environment Variables.*
+
+Add the *key* `GIT_SECRET`{: .language-console} and add your token as the value. Then inside of your `Gemfile` import this environment variable and replace the `TOKEN` string with variable.
+
+~~~ruby
+auth = ENV['GIT_SECRET']
+gem 'mytheme', '>= 0.1.0', :git => 'https://#{auth}:x-oauth-basic@github.com/USERNAME/mytheme.git'
+~~~
+
 Be sure to specify the theme you are using within the site’s `_config.yml` file.
 
 ### Updating Themes
