@@ -1,54 +1,54 @@
 GIT
-  remote: git://github.com/CloudCannon/jekyll-feed.git
-  revision: 7e4a5ed7605aa106558ed12bd1ca67006b24f778
-  branch: master
+  remote: https://github.com/CloudCannon/jekyll-feed.git
+  revision: 4ab53b22284cda136a2dc5ecbea2ff2a6b74c8aa
+  branch: update-fork
   specs:
-    jekyll-feed (0.12.1)
+    jekyll-feed (0.15.1)
       jekyll (>= 3.7, < 5.0)
 
 GIT
-  remote: git://github.com/CloudCannon/jekyll-theme-cloudcannon.git
-  revision: 79011f1e8f6f8f88c96543caa65bcc9d2bbf8942
+  remote: https://github.com/CloudCannon/jekyll-theme-cloudcannon.git
+  revision: 80dadf70da1e60c5b54e867f13652fade1820c4a
   branch: master
   specs:
-    jekyll-theme-cloudcannon (0.1.2)
-      jekyll (~> 4.0.0)
+    jekyll-theme-cloudcannon (0.1.3)
+      jekyll (~> 4.1.1)
       jekyll-data (~> 1.1.0)
-      jekyll-feed (~> 0.12.1)
+      jekyll-feed (~> 0.15.0)
       jekyll-include-cache (~> 0.2.0)
       jekyll-seo-tag (~> 2.6.1)
-      jekyll-sitemap (~> 1.3.1)
+      jekyll-sitemap (~> 1.4.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
-    autoprefixer-rails (9.6.1)
+    autoprefixer-rails (9.8.6.5)
       execjs
     colorator (1.1.0)
-    concurrent-ruby (1.1.5)
-    em-websocket (0.5.1)
+    concurrent-ruby (1.1.7)
+    em-websocket (0.5.2)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
     execjs (2.7.0)
-    ffi (1.11.3)
+    ffi (1.13.1)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
-    i18n (1.7.0)
+    i18n (1.8.5)
       concurrent-ruby (~> 1.0)
-    jekyll (4.0.0)
+    jekyll (4.1.1)
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
-      i18n (>= 0.9.5, < 2)
+      i18n (~> 1.0)
       jekyll-sass-converter (~> 2.0)
       jekyll-watch (~> 2.0)
       kramdown (~> 2.1)
       kramdown-parser-gfm (~> 1.0)
       liquid (~> 4.0)
-      mercenary (~> 0.3.3)
+      mercenary (~> 0.4.0)
       pathutil (~> 0.9)
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
@@ -59,44 +59,46 @@ GEM
       jekyll (>= 3.3, < 5.0.0)
     jekyll-include-cache (0.2.0)
       jekyll (>= 3.7, < 5.0)
-    jekyll-sass-converter (2.0.1)
+    jekyll-sass-converter (2.1.0)
       sassc (> 2.0.1, < 3.0)
     jekyll-seo-tag (2.6.1)
       jekyll (>= 3.3, < 5.0)
-    jekyll-sitemap (1.3.1)
+    jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    kramdown (2.1.0)
+    kramdown (2.3.0)
+      rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     liquid (4.0.3)
-    listen (3.2.0)
+    listen (3.2.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    mercenary (0.3.6)
+    mercenary (0.4.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-    public_suffix (4.0.1)
-    rb-fsevent (0.10.3)
-    rb-inotify (0.10.0)
+    public_suffix (4.0.6)
+    rb-fsevent (0.10.4)
+    rb-inotify (0.10.1)
       ffi (~> 1.0)
-    rouge (3.13.0)
+    rexml (3.2.4)
+    rouge (3.23.0)
     safe_yaml (1.0.5)
-    sassc (2.2.1)
+    sassc (2.4.0)
       ffi (~> 1.9)
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
-    unicode-display_width (1.6.0)
+    unicode-display_width (1.7.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (= 4.0.0)
+  jekyll (= 4.1.1)
   jekyll-autoprefixer
   jekyll-feed!
   jekyll-theme-cloudcannon!
 
 BUNDLED WITH
-   2.0.1
+   2.1.4
