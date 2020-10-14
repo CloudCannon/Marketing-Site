@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/CloudCannon/Marketing-Site#readme",
   "devDependencies": {
-    "@cloudcannon/suite": "^1.1.15",
-    "gulp": "^3.9.1"
+    "@cloudcannon/suite": "2.0.0-rc7",
+    "gulp": "^4.0.2"
   }
 }
