@@ -12,7 +12,7 @@ In some cases, you may also want to bundle your JavaScript files together, to re
 
 ## Jekyll includes
 
-A simple technique for bundling JavaScript is to use Jekyll includes. With this approach, a single JavaScript file would use `{% raw %}{% include %}{% endraw %}` tags to include other scripts. For example, you could create a `bundle.js` file with the following:
+A simple technique for bundling JavaScript is to use Jekyll includes. With this approach, a single JavaScript file would use `{% raw %}{% include %}{% endraw %}` tags to include other scripts. For example, you could create a `bundle.js` file with the following:&nbsp;
 
 ~~~js
 ---
