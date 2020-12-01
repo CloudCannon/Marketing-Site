@@ -1,7 +1,7 @@
 ---
 name: Robbie Cook
 image: /uploads/robbie.jpg
-position: Support & Services Engineer
+position: Application Engineer / Support & Services
 twitter:
 email_address: robbie@cloudcannon.com
 bio:
