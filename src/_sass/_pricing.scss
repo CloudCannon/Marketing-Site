@@ -63,7 +63,7 @@ section.short, wrapper.short {
 				top: 30px;
 				right: 28px;
 				height: 20px;
-				border-right: 4px solid #407afc;
+				border-right: 4px solid #034ad8;
 				transition: all ease-in-out 0.125s;
 			}
 
@@ -71,11 +71,11 @@ section.short, wrapper.short {
 				content: '';
 				height: 0px;
 				width: 20px;
-				border-bottom: 4px solid #407afc;
+				border-bottom: 4px solid #034ad8;
 				right: 20px;
 				top: 38px;
 				border-right: 0px transparent;
-				background-color: #407afc;
+				background-color: #034ad8;
 				opacity: 1;
 
 			}
@@ -146,7 +146,7 @@ section.short, wrapper.short {
 
 				.radio-selector {
 					display: flex;
-					border: 1px solid #407afc;
+					border: 1px solid #034ad8;
 					border-right: 0px solid transparent;
 					border-radius: 2px;
 					margin-bottom: 25px;
@@ -157,7 +157,7 @@ section.short, wrapper.short {
 						padding: 0.8rem 1rem;
 						/*border-radius: 2px; */
 						border-radius: 0;
-						border-right: 1px solid #407afc;
+						border-right: 1px solid #034ad8;
 						background-color: #ffffff;
 						letter-spacing: .05em;
 						text-decoration: none;
@@ -165,7 +165,7 @@ section.short, wrapper.short {
 						text-align: center;
 						font-weight: 700;
 						font-size: .8rem;
-						color: #407afc;
+						color: #034ad8;
 						line-height: 1;
 						transition: .15s background-color ease,.15s color ease,.15s border-color ease;
 					}
@@ -179,7 +179,7 @@ section.short, wrapper.short {
 					}
 
 					input:checked + label {
-						background-color: #407afc;
+						background-color: #034ad8;
 						color: #fff;
 					}
 
